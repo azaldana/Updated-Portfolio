@@ -1,272 +1,585 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="sticky-footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Alexandra Zaldana | Home</title>
 </head>
+
 <body>
 
-<!-- // Main Container of Webpage // -->
-<div class="home-page">
+    <!-- // Main Container of Webpage // -->
+    <div class="home-page">
 
-    <style>
-        body {
-            background: url(assets/images/image_04_black.jpg);
-            width: 100%;
-                }
-    </style>
+        <style>
+            body {
+                background: url(assets/images/image_04_black.jpg);
+                width: 100%;
+            }
+        </style>
 
-<!-- // Jumbotron Text With Background image //    -->
-    <div class="jumbotron">
-        <h1 class="display-4">Alexandra Zaldana</h1>
-        <p class="lead">Graphic Design | Web Design | Freelance</p>
+        <!-- // Jumbotron Text With Background image //    -->
+        <div class="jumbotron">
+            <h1 class="display-4">Alexandra Zaldana</h1>
+            <p class="lead">Graphic Design | Web Design | Freelance</p>
 
-        <br>
+            <br>
 
-        <a class="btn btn-primary btn-lg" id ="startButton" href="#" role="button">View Portfolio</a>
+            <a class="btn btn-primary btn-lg" id="startButton" href="#" role="button">View Portfolio</a>
+        </div>
     </div>
-</div>
 
-<!-- // Navbar // -->
-<div class="main-page">
-    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-        <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-            <a class="navbar-brand d-none d-lg-inline-block ml-4" href="#"><img src="assets/images/personal_logo.png" width="75" alt="Logo" id="logo">
-            </a>
-                    
-            <div class="w-100 text-right">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                <span class="navbar-toggler-icon"></span>
-                </button>
+    <!-- // Navbar // -->
+    <div class="main-page">
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+            <div class="d-flex flex-grow-1">
+                <span class="w-100 d-lg-none d-block">
+                    <!-- hidden spacer to center brand on mobile --></span>
+                <a class="navbar-brand d-none d-lg-inline-block ml-5" href="#"><img
+                        src="assets/images/personal_logo_new.png" width="80" alt="Logo" id="logo">
+                </a>
+
+                <div class="w-100 text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
             </div>
-        </div>
 
-        <div class="collapse navbar-collapse flex-grow-1 text-right mr-2" id="myNavbar">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-                <li class="nav-item">
-                    <a href="#" class="nav-link m-2 menu-item nav-active" id="home">Home</a>
-                </li>
+            <div class="collapse navbar-collapse flex-grow-1 text-right mr-2" id="myNavbar">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item nav-active" id="home">Home</a>
+                    </li>
 
-                <li class="nav-item line">
-                    <a href="#" class="nav-link m-2 menu-item nav-active line">|</a>
-                </li>
+                    <li class="nav-item line">
+                        <a href="#" class="nav-link m-2 menu-item nav-active line">|</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a href="#" class="nav-link m-2 menu-item" id="portfolio">Portfolio</a>
-                </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item" id="portfolio">Portfolio</a>
+                    </li>
 
-                <li class="nav-item line">
-                    <a href="#" class="nav-link m-2 menu-item nav-active line">|</a>
-                </li>
+                    <li class="nav-item line">
+                        <a href="#" class="nav-link m-2 menu-item nav-active line">|</a>
+                    </li>
 
-                <li class="nav-item">
-                    <a href="#" class="nav-link m-2 menu-item" id="contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-        
-    <br>
-
-<!-- // Main text on the webpage, underneath the navbar // -->
-
-<div id="main-text">
-    <div class="row">
-        <div class="col-3">
-            <section id="block-text">
-                <a class="left-side" href="#navbar"><p>Graphic Design</p></a>
-                <a class="left-side" href="#break-line-01"><p>Web Design</p></a>
-                <a class="left-side" href="#break-line-02"><p>Branding</p></a>
-                <a class="left-side" href="#break-line-03"><p>Layout</p></a>
-                <a class="left-side" href="#break-line-04"><p>Freelance</p></a>
-            </section>
-        </div>
-
-        <!-- // About Me Section // -->
-
-        <div class="col-6 about-me">
-            <p id="about"><strong>About</strong></p>
-
-            <p id="text">
-            A Sacramento native, I graduated from California State University, Sacramento with a Bachelor’s in Graphic Design. Shortly after graduation I moved to San Diego to pursue my career in design. Mixed with a love of typography, I enjoy making ideas come to reality with my designs.
-                                                
-            My designs are innovative, always maintaining the brand consistency and style. With a design style of modern, clean and organized, I make sure every piece of my creative puzzle connects and has a greater purpose.    
-                                                
-            My website is a testament to that style. Featured are some of the projects I have done during my professional career in San Diego and Sacramento.
-            </p>
-        </div>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link m-2 menu-item" id="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
         <br>
 
-        <!-- // About Me Profile Image // -->
+        <!-- // Main text on the webpage, underneath the navbar // -->
 
-        <div class="col-3 about-me">
-            <p></p>
-            <img src="assets/images/image_01.jpg" class="rounded-circle" alt="Profile Photo" width="200" height="200">
-        </div>
+        <div id="main-text">
+            <div class="row">
+                <div class="col-3">
+                    <section id="block-text">
 
-            <!-- // Modal to showcase portfolio images // -->
+                        <p id="description-pl">CLIENT <br>
+                            <strong>Pretzel Logic Productions</strong></p>
 
-            <div id="myModalImg" class="modal">
-                <span class="close">x</span>
-                <img class="modal-content" id="img01">
-                <div id="caption"></div>
-            </div>
+                        <p id="description-pl">DESIGNER(S) <br>
+                            <strong>Alexandra Zaldana</strong></p>
 
-            <!-- // Contact Section Form // -->
-           
-            <form>
+                        <p id="description-pl">YEAR COMPLETED <br> <strong>2015</strong></p>
+
+                    </section>
+
+                    <section id="block-text-01">
+
+                        <p id="description-brew">CLIENT <br>
+                            <strong>Brew[array]</strong></p>
+
+                        <p id="description-brew">DESIGNER(S) <br>
+                            <strong>Mike Carleson, Jason Cartwright, Paul Cruz & Alexandra Zaldana</strong></p>
+
+                        <p id="description-brew">PROJECT SITE <br> <strong><a id="link"
+                                    href="https://azaldana.github.io/Project1/"
+                                    target="_blank">azaldana.github.io/BrewArray</strong></p></a>
+
+                        <p id="description-brew">YEAR COMPLETED <br> <strong>2019</strong></p>
+
+                        <p id="description-brew">GITHUB LINK <br> <strong><a id="link"
+                                    href="https://github.com/azaldana/Project1"
+                                    target="_blank">github.com/azaldana/BrewArray</strong></p></a>
+
+                    </section>
+
+                    <section id="block-text-02">
+
+                        <p id="description-valley">CLIENT <br>
+                            <strong>Valley View Casino</strong></p>
+
+                        <p id="description-valley">DESIGNER(S) <br>
+                            <strong>Alexandra Zaldana</strong></p>
+
+                        <p id="description-valley">YEAR COMPLETED <br> <strong>2016</strong></p>
+
+                    </section>
+
+                    <section id="block-text-03">
+
+                        <p id="description-alight">CLIENT <br>
+                            <strong>a•light Architectural Lighting</strong></p>
+
+                        <p id="description-alight">DESIGNER(S) <br>
+                            <strong>Alexandra Zaldana</strong></p>
+
+                        <p id="description-alight">YEAR COMPLETED <br> <strong>2018</strong></p>
+
+                    </section>
+
+                    <section id="block-text-04">
+
+                        <p id="description-trivia">CLIENT <br>
+                            <strong>N/A</strong></p>
+
+                        <p id="description-trivia">DESIGNER(S) <br>
+                            <strong>Alexandra Zaldana</strong></p>
+
+                        <p id="description-trivia">PROJECT SITE <br> <strong><a id="link"
+                                    href="https://azaldana.github.io/Trivia-Game/"
+                                    target="_blank">azaldana.github.io/TriviaGame</strong></p></a>
+
+                        <p id="description-trivia">YEAR COMPLETED <br> <strong>2019</strong></p>
+
+                        <p id="description-trivia">GITHUB LINK <br> <strong><a id="link"
+                                    href="https://github.com/azaldana/Trivia-Game"
+                                    target="_blank">github.com/azaldana/TriviaGame</strong></p></a>
+
+                    </section>
+
+                    <section id="block-text-05">
+
+                        <p id="description-duck">CLIENT <br>
+                            <strong>Duck Dive</strong></p>
+
+                        <p id="description-duck">DESIGNER(S) <br>
+                            <strong>Alexandra Zaldana</strong></p>
+
+                        <p id="description-duck">YEAR COMPLETED <br> <strong>2014</strong></p>
+
+                    </section>
+
+                    <section id="block-text-06">
+
+                        <p id="description-xy">CLIENT <br>
+                            <strong>XY Find It</strong></p>
+
+                        <p id="description-xy">DESIGNER(S) <br>
+                            <strong>Alexandra Zaldana</strong></p>
+
+                        <p id="description-xy">YEAR COMPLETED <br> <strong>2015</strong></p>
+
+                    </section>
+
+                    <section id="block-text-07">
+
+                        <p id="description-comedy">CLIENT <br>
+                            <strong>N/A</strong></p>
+
+                        <p id="description-comedy">DESIGNER(S) <br>
+                            <strong>Alexandra Zaldana</strong></p>
+
+                        <p id="description-comedy">PROJECT SITE <br> <strong><a id="link"
+                                    href="https://azaldana.github.io/GifTastic/"
+                                    target="_blank">azaldana.github.io/Comedy</strong></p></a>
+
+                        <p id="description-comedy">YEAR COMPLETED <br> <strong>2019</strong></p>
+
+                        <p id="description-comedy">GITHUB LINK <br> <strong><a id="link"
+                                    href="https://github.com/azaldana/GifTastic"
+                                    target="_blank">github.com/azaldana/Comedy</strong></p></a>
+
+                    </section>
+
+                    <section id="block-text-08">
+
+                        <p id="description-train">CLIENT <br>
+                            <strong>N/A</strong></p>
+
+                        <p id="description-train">DESIGNER(S) <br>
+                            <strong>Alexandra Zaldana</strong></p>
+
+                        <p id="description-train">PROJECT SITE <br> <strong><a id="link"
+                                    href="https://azaldana.github.io/Train-Schedule/"
+                                    target="_blank">azaldana.github.io/TrainSchedule</strong></p></a>
+
+                        <p id="description-train">YEAR COMPLETED <br> <strong>2019</strong></p>
+
+                        <p id="description-train">GITHUB LINK <br> <strong><a id="link"
+                                    href="https://github.com/azaldana/Train-Schedule"
+                                    target="_blank">github.com/azaldana/TrainSchedule</strong></p></a>
+
+                    </section>
+
+                    <section id="block-text-09">
+
+                            <p id="description-gulls">CLIENT <br>
+                                <strong>San Diego Gulls</strong></p>
+    
+                            <p id="description-gulls">DESIGNER(S) <br>
+                                <strong>Alexandra Zaldana</strong></p>
+    
+                            <p id="description-gulls">YEAR COMPLETED <br> <strong>2016</strong></p>
+    
+                        </section>
+
+                </div>
+
+                <!-- // About Me Section // -->
+
+                <div class="col-6 about-me">
+                    <p id="about"><strong>About</strong></p>
+
+                    <p id="text">
+                        A Sacramento native, I graduated from California State University, Sacramento with a Bachelor’s
+                        in Graphic Design. Shortly after graduation I moved to San Diego to pursue my career in design.
+                        Mixed with a love of typography, I enjoy making ideas come to reality with my designs.
+
+                        My designs are innovative, always maintaining the brand consistency and style. With a design
+                        style of modern, clean and organized, I make sure every piece of my creative puzzle connects and
+                        has a greater purpose.
+
+                        My website is a testament to that style. Featured are some of the projects I have done during my
+                        professional career in San Diego and Sacramento.
+                    </p>
+                </div>
+
+                <br>
+
+                <!-- // About Me Profile Image // -->
+
+                <div class="col-3 about-me">
+                    <p></p>
+                    <img src="assets/images/image_01.jpg" class="rounded-circle" alt="Profile Photo" width="200"
+                        height="200">
+                </div>
+
+                <!-- // Modal to showcase portfolio images // -->
+
+                <div id="myModalImg" class="modal">
+                    <span class="close">x</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+
+                <!-- // Contact Section Form // -->
+
+                <form>
                     <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <label for="inputFirst">First Name</label>
-                        <input type="text" class="form-control" id="firstName">
-                      </div>
-                      <div class="form-group col-md-6">
-                        <label for="inputLast">Last Name</label>
-                        <input type="text" class="form-control" id="lastName">
-                      </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputFirst">First Name</label>
+                            <input type="text" class="form-control" id="firstName">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputLast">Last Name</label>
+                            <input type="text" class="form-control" id="lastName">
+                        </div>
                     </div>
                     <div class="form-group">
-                      <label for="inputEmail">Email Address</label>
-                      <input type="text" class="form-control" id="email">
+                        <label for="inputEmail">Email Address</label>
+                        <input type="text" class="form-control" id="email">
                     </div>
                     <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <label for="inputSubject">Subject</label>
-                        <input type="text" class="form-control" id=subject>
-                      </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputSubject">Subject</label>
+                            <input type="text" class="form-control" id=subject>
+                        </div>
                     </div>
                     <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control" id="message" rows="3"></textarea>
-                          </div>
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
                     <button type="submit" class="btn btn-primary" id="submit">Submit</button>
-                  </form>
-                  
-            
+                </form>
 
-            <!-- // Contact Me Section // -->
-    
-            <div class="col-6 contact">
-                <p id="contact-header"><strong>Contact Me</strong></p>
-    
-                <p id="text">
-                Send me a message! For freelance opportunities or other inquiries, please contact me using the form below.
-                </p>
+                <!-- // Contact Me Section // -->
 
-                <a class="btn btn-primary btn-lg" id ="emailButton" href="#" role="button">Send me an email</a>
+                <div class="col-6 contact">
+                    <p id="contact-header"><strong>Contact Me</strong></p>
+
+                    <p id="text">
+                        Send me a message! For freelance opportunities or other inquiries, please contact me using the
+                        form below.
+                    </p>
+
+                    <a class="btn btn-primary btn-lg" id="emailButton" href="#" role="button">Send me an email</a>
+
+                </div>
+
+                <!-- // Pretzel Logic Row // -->
+
+                <div class="col-3 pretzel">
+                    <p id="header"><strong>Pretzel Logic Productions</strong></p>
+
+                    <img id="logic-01" src="assets/images/PL-01.jpg" alt="Business E-blast Design" width="300">
+
+                </div>
+
+                <div class="col-6 pretzel">
+                    <img id="logic-02" src="assets/images/PL-02.jpg" alt="Business Deck" width="600">
+                </div>
+
+                <!-- // Brew array Row // -->
+
+                <div class="col-9 brew">
+                    <p id="header"><strong>Brew[array]</strong></p>
+
+                    <img id="brew-01" src="assets/images/brew-array.jpg" alt="Website Design" width="900">
+
+                </div>
+
+                <!-- // Web Design First Row // -->
+
+                <div class="col-6 portfolio">
+                    <p id="header"><strong>Portfolio</strong></p>
+                </div>
             </div>
 
-    <!-- // Graphic Design Portfolio First Row //  -->
+            <br>
 
-        <div class="col-3 portfolio">
-            <p id="header"><strong>Portfolio</strong></p>
-    
-            <img id="logic-01" class="portfolio gdesign test" src="assets/images/PL-01.jpg" alt="Pretzel Logic" width="300">
+            <!-- // Web Design Second Row // -->
 
-            <img id="dive-01" class="portfolio gdesign test" src="assets/images/DD-01.jpg" alt="Duck Dive" width="300">
-        </div>
-    
-        <div class="col-6 portfolio gdesign">
-            <img id="view-01" class="test-02" src="assets/images/VVCH-03.jpg" alt="Valley View Casino" width="600">
+            <div class="row">
+                <div class="col-3 portfolio gdesign"></div>
 
-            <img id="logic-02" src="assets/images/PL-02.jpg" alt="Pretzel Logic" width="600">
-        </div>
-    </div>
+                <div class="col-4 portfolio gdesign text-center">
+                    <div class="image">
+                        <img src="assets/images/camera-01.jpg" width="400" id="funky">
+                        <div class="middle">
+                            <div class="text">
+                                <strong>
+                                    <p id="hover">Pretzel Logic</p>
+                                </strong>
+                                <p id="hover-01">Graphic Design</p>
+                            </div>
+                            <br>
+                            <button id="projectBtn" class="project01">View Project</button>
+                        </div>
+                    </div>
+                </div>
 
-    <!-- // Graphic Design Portfolio Second Row // -->
-
-    <div class="row">
-        <div class="col-3 portfolio gdesign">
-
-        </div>
-
-        <div class="col-5 portfolio gdesign">
-            <img id="view-02" src="assets/images/VVCH-01.jpg" alt="Valley View Casino" width="500">
-        </div>
-
-        <div class="col-4 portfolio gdesign test">
-            <img id="gulls-01" src="assets/images/SDG-01.jpg" alt="San Diego Gulls" width="300">
-        </div>
-    </div>
-
-    <!-- // Graphic Design Portfolio Third Row // -->
-
-    <div class="row">
-        <div class="col-3 portfolio gdesign">
-
-        </div>
-
-        <div class="col-3 portfolio gdesign">
-            <img id="xy-01" src="assets/images/XY-01.jpg" alt="XY Find It" width="300">
-        </div>
-
-        <div class="col-6 portfolio gdesign test">
-                <img id="sdba-01" src="assets/images/SDBA-01.jpg" alt="San Diego Bar Association" width="600">
-        </div>
-
-    </div>
-
-    <!-- // First Break Line Row // -->
-
-    <div class="row">
-        <div class="col-3 portfolio gdesign"></div>
-
-        <div class="col-9 portfolio gdesign">
-            <div id="break-line-01"></div>
-        </div>
-    </div>
-
-    <!-- // Web Design First Row // -->
-
-    <div class="row">
-        <div class="col-3 portfolio gdesign"></div>
-    
-        <div class="col-9 portfolio gdesign">
-            <img id="brew" src="assets/images/brew-array.jpg" alt="Brew[array] Website" width="900">
-        </div>
-
-    </div>
-
-     <!-- // Web Design Second Row // -->
-
-     <div class="row">
-            <div class="col-3 portfolio gdesign"></div>
-        
-            <div class="col-9 portfolio gdesign">
-                <img id="zaldana" src="assets/images/zaldana.jpg" alt="Personal Portfolio" width="900">
+                <div class="col-4 portfolio gdesign text-center">
+                    <div class="image">
+                        <img src="assets/images/beer-01.jpg" width="400" id="funky">
+                        <div class="middle">
+                            <div class="text">
+                                <strong>
+                                    <p id="hover">Brew[array]</p>
+                                </strong>
+                                <p id="hover-01">Web Design</p>
+                            </div>
+                            <br>
+                            <button id="projectBtn" class="project02">View Project</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-    
+
+            <br>
+
+            <!-- // Web Design Third Row // -->
+
+            <div class="row">
+                <div class="col-3 portfolio gdesign"></div>
+
+                <div class="col-4 portfolio gdesign text-center">
+                    <div class="image">
+                        <img src="assets/images/valley-view-01.jpg" width="400" id="funky">
+                        <div class="middle">
+                            <div class="text">
+                                <strong>
+                                    <p id="hover">Valley View Casino</p>
+                                </strong>
+                                <p id="hover-01">Graphic Design</p>
+                            </div>
+                            <br>
+                            <button id="projectBtn" class="project03">View Project</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 portfolio gdesign text-center">
+                    <div class="image">
+                        <img src="assets/images/lighting.jpg" width="400" id="funky">
+                        <div class="middle">
+                            <div class="text">
+                                <strong>
+                                    <p id="hover">a•light Lighting</p>
+                                </strong>
+                                <p id="hover-01">Graphic Design</p>
+                            </div>
+                            <button id="projectBtn" class="project04">View Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <!-- // Web Design Fourth Row // -->
+
+            <div class="row">
+                <div class="col-3 portfolio gdesign"></div>
+
+                <div class="col-4 portfolio gdesign text-center">
+                    <div class="image">
+                        <img src="assets/images/comics.jpg" width="400" id="funky">
+                        <div class="middle">
+                            <div class="text">
+                                <strong>
+                                    <p id="hover">90's Cartoon Trivia</p>
+                                </strong>
+                                <p id="hover-01">Web Design</p>
+                            </div>
+                            <button id="projectBtn" class="project05">View Project</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 portfolio gdesign text-center">
+                    <div class="image">
+                        <img src="assets/images/bar.jpg" width="400" id="funky">
+                        <div class="middle">
+                            <div class="text">
+                                <strong>
+                                    <p id="hover">Duck Dive</p>
+                                </strong>
+                                <p id="hover-01">Graphic Design</p>
+                            </div>
+                            <button id="projectBtn" class="project06">View Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <!-- // Web Design Fifth Row // -->
+
+            <div class="row">
+                <div class="col-3 portfolio gdesign"></div>
+
+                <div class="col-4 portfolio gdesign text-center">
+                    <div class="image">
+                        <img src="assets/images/technology.jpg" width="400" id="funky">
+                        <div class="middle">
+                            <div class="text">
+                                <strong>
+                                    <p id="hover">XY Find It</p>
+                                </strong>
+                                <p id="hover-01">Graphic Design</p>
+                            </div>
+                            <button id="projectBtn" class="project07">View Project</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 portfolio gdesign text-center">
+                    <div class="image">
+                        <img src="assets/images/television.jpg" width="400" id="funky">
+                        <div class="middle">
+                            <div class="text">
+                                <strong>
+                                    <p id="hover">Comedy Gifs</p>
+                                </strong>
+                                <p id="hover-01">Web Design</p>
+                            </div>
+                            <button id="projectBtn" class="project08">View Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <!-- // Web Design Sixth Row // -->
+
+            <div class="row break">
+                <div class="col-3 portfolio gdesign"></div>
+
+                <div class="col-4 portfolio gdesign text-center">
+                    <div class="image">
+                        <img src="assets/images/train-01.jpg" width="400" id="funky">
+                        <div class="middle">
+                            <div class="text">
+                                <strong>
+                                    <p id="hover">Train Schedule</p>
+                                </strong>
+                                <p id="hover-01">Web Design</p>
+                            </div>
+                            <button id="projectBtn" class="project09">View Project</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4 portfolio gdesign text-center">
+                    <div class="image">
+                        <img src="assets/images/hockey.jpg" width="400" id="funky">
+                        <div class="middle">
+                            <div class="text">
+                                <strong>
+                                    <p id="hover">San Diego Gulls</p>
+                                </strong>
+                                <p id="hover-01">Graphic Design</p>
+                            </div>
+                            <button id="projectBtn" class="project10">View Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
+        <!-- // Footer // -->
+
+        <footer class="footer">
+            <div class="row">
+                <div class="col-sm-2">
+                    <img src="assets/images/personal_logo_grey.png" width="80" alt="Logo" id="logo">
 
 
-</div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="container">© 2019 Copyright</div>
 
-<!-- // Footer // -->
+                </div>
 
-<footer class="footer">
-        <div class="container">© 2019 Copyright</div>
-      </footer>
-        
+                <div class="col-sm-2">
+                    <a href="https://www.linkedin.com/in/alexandrazaldana03/" class="fa fa-linkedin"></a>
+                    <a href="https://github.com/azaldana" class="fa fa-github"></a>
+                    <a href="#" class="fa fa-envelope"></a>
+                    <a href="#" class="fa fa-phone"></a>
+                </div>
+            </div>
 
-        
+        </footer>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    
-<script src="assets/javascript/app.js"></script>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+        <script src="assets/javascript/app.js"></script>
 
 </body>
+
 </html>
