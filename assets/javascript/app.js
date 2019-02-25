@@ -40,6 +40,7 @@ $(document).ready(function () {
     var comedyPage = $(".comedy");
     var trainPage = $(".train");
     var gullsPage = $(".gulls");
+    var emailLine = $("#emailLine");
 
 
     $("#submit").on('click', function (event) {
@@ -268,6 +269,7 @@ $(document).ready(function () {
             comedyPage.hide();
             trainPage.hide();
             gullsPage.hide();
+            emailLine.show();
             $(".graphic").css('font-weight', 'normal');
             $("#home").css('font-weight', 'normal');
             $("#contact").css('font-weight', 'bold');
@@ -305,6 +307,7 @@ $(document).ready(function () {
             comedyPage.hide();
             trainPage.hide();
             gullsPage.hide();
+            emailLine.hide();
             $("#home").css('font-weight', 'normal');
         });
     }

@@ -11,7 +11,7 @@ This personal portfolio allows the viewer to see many different projects, view e
 
 ## Sample View
 
-![Portfolio Screenshot](/images/screenshot.jpg/)
+![Portfolio Screenshot](/assets/images/screenshot.jpg/)
 
 ## Technology
 

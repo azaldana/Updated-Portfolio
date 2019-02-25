@@ -364,6 +364,15 @@ a:hover {
     cursor: pointer;
 }
 
+#emailLine {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: initial;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    margin-top: 50px;
+    letter-spacing: 3px !important;
+}
+
 /* Footer Section */
 
 .footer {
