@@ -194,8 +194,20 @@ p {
     color: black;
 }
 
-#block-text, #block-text-01 {
+#block-text, #block-text-01, #block-text-02, #block-text-03, #block-text-04, #block-text-05, #block-text-06, #block-text-07, #block-text-08, #block-text-09 {
     margin-top: 50px;
+}
+
+#view-01, #alight-01, #dive-02 {
+    margin-bottom: 50px;
+}
+
+#dive-02, #xy-02, #gulls-02 {
+    margin-top: 55px;
+}
+
+#dive-03 {
+    margin-top: -20px;
 }
 
   /* // Modal styling // */
@@ -294,7 +306,7 @@ form {
     margin-bottom: 100px !important;
 }
 
-#emailButton {
+#emailButton-01, #emailButton-02 {
     margin: 0 auto;
     background-color: black !important;
     color: white;
@@ -306,6 +318,7 @@ form {
     font-weight: bold !important;
     letter-spacing: 2px;
     margin-top: 10px;
+    margin-right: 20px;
 }
 
 #submit {

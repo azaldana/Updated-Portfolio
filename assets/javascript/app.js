@@ -32,6 +32,15 @@ $(document).ready(function () {
     var logo = $("#logo");
     var pretzelPage = $(".pretzel");
     var brewPage = $(".brew");
+    var valleyPage = $(".valley");
+    var alightPage = $(".alight");
+    var triviaPage = $(".trivia");
+    var duckPage = $(".duck");
+    var xyPage = $(".xy");
+    var comedyPage = $(".comedy");
+    var trainPage = $(".train");
+    var gullsPage = $(".gulls");
+
 
     $("#submit").on('click', function (event) {
         event.preventDefault();
@@ -95,6 +104,14 @@ $(document).ready(function () {
         form.hide();
         pretzelPage.hide();
         brewPage.hide();
+        valleyPage.hide();
+        alightPage.hide();
+        triviaPage.hide();
+        duckPage.hide();
+        xyPage.hide();
+        comedyPage.hide();
+        trainPage.hide();
+        gullsPage.hide();
 
         homePageButton.on('click', function () {
             homePage.empty();
@@ -124,6 +141,14 @@ $(document).ready(function () {
             form.hide();
             pretzelPage.hide();
             brewPage.hide();
+            valleyPage.hide();
+            alightPage.hide();
+            triviaPage.hide();
+            duckPage.hide();
+            xyPage.hide();
+            comedyPage.hide();
+            trainPage.hide();
+            gullsPage.hide();
             $("#home").css('font-weight', 'bold');
             $("#portfolio").css('font-weight', 'normal');
             $("#contact").css('font-weight', 'normal');
@@ -155,6 +180,14 @@ $(document).ready(function () {
             form.hide();
             pretzelPage.hide();
             brewPage.hide();
+            valleyPage.hide();
+            alightPage.hide();
+            triviaPage.hide();
+            duckPage.hide();
+            xyPage.hide();
+            comedyPage.hide();
+            trainPage.hide();
+            gullsPage.hide();
             $(".graphic").css('font-weight', 'normal');
             $("#home").css('font-weight', 'bold');
             $("#portfolio").css('font-weight', 'normal');
@@ -185,6 +218,14 @@ $(document).ready(function () {
             form.hide();
             pretzelPage.hide();
             brewPage.hide();
+            valleyPage.hide();
+            alightPage.hide();
+            triviaPage.hide();
+            duckPage.hide();
+            xyPage.hide();
+            comedyPage.hide();
+            trainPage.hide();
+            gullsPage.hide();
             $(".graphic").css('font-weight', 'normal');
             $("#home").css('font-weight', 'normal');
             $("#portfolio").css('font-weight', 'bold');
@@ -219,6 +260,14 @@ $(document).ready(function () {
             form.hide();
             pretzelPage.hide();
             brewPage.hide();
+            valleyPage.hide();
+            alightPage.hide();
+            triviaPage.hide();
+            duckPage.hide();
+            xyPage.hide();
+            comedyPage.hide();
+            trainPage.hide();
+            gullsPage.hide();
             $(".graphic").css('font-weight', 'normal');
             $("#home").css('font-weight', 'normal');
             $("#contact").css('font-weight', 'bold');
@@ -229,7 +278,7 @@ $(document).ready(function () {
     clickContact();
 
     function sendEmail() {
-        var emailButton = $("#emailButton");
+        var emailButton = $("#emailButton-01");
 
         emailButton.on('click', function () {
             homePage.empty();
@@ -248,6 +297,14 @@ $(document).ready(function () {
             trainSide.hide();
             gullsSide.hide();
             brewPage.hide();
+            valleyPage.hide();
+            alightPage.hide();
+            triviaPage.hide();
+            duckPage.hide();
+            xyPage.hide();
+            comedyPage.hide();
+            trainPage.hide();
+            gullsPage.hide();
             $("#home").css('font-weight', 'normal');
         });
     }
@@ -275,6 +332,14 @@ $(document).ready(function () {
             trainSide.hide();
             gullsSide.hide();
             brewPage.hide();
+            valleyPage.hide();
+            alightPage.hide();
+            triviaPage.hide();
+            duckPage.hide();
+            xyPage.hide();
+            comedyPage.hide();
+            trainPage.hide();
+            gullsPage.hide();
         })
     }
     pretzel();
@@ -296,6 +361,14 @@ $(document).ready(function () {
             trainSide.hide();
             gullsSide.hide();
             brewPage.show();
+            valleyPage.hide();
+            alightPage.hide();
+            triviaPage.hide();
+            duckPage.hide();
+            xyPage.hide();
+            comedyPage.hide();
+            trainPage.hide();
+            gullsPage.hide();
         })
     }
     brew();
@@ -317,6 +390,14 @@ $(document).ready(function () {
             trainSide.hide();
             gullsSide.hide();
             brewPage.hide();
+            valleyPage.show();
+            alightPage.hide();
+            triviaPage.hide();
+            duckPage.hide();
+            xyPage.hide();
+            comedyPage.hide();
+            trainPage.hide();
+            gullsPage.hide();
         })
     }
     valleyView();
@@ -338,6 +419,14 @@ $(document).ready(function () {
             trainSide.hide();
             gullsSide.hide();
             brewPage.hide();
+            valleyPage.hide();
+            alightPage.show();
+            triviaPage.hide();
+            duckPage.hide();
+            xyPage.hide();
+            comedyPage.hide();
+            trainPage.hide();
+            gullsPage.hide();
         })
     }
     alight();
@@ -359,6 +448,13 @@ $(document).ready(function () {
             trainSide.hide();
             gullsSide.hide();
             brewPage.hide();
+            alightPage.hide();
+            triviaPage.show();
+            duckPage.hide();
+            xyPage.hide();
+            comedyPage.hide();
+            trainPage.hide();
+            gullsPage.hide();
         })
     }
     trivia();
@@ -380,6 +476,13 @@ $(document).ready(function () {
             trainSide.hide();
             gullsSide.hide();
             brewPage.hide();
+            alightPage.hide();
+            triviaPage.hide();
+            duckPage.show();
+            xyPage.hide();
+            comedyPage.hide();
+            trainPage.hide();
+            gullsPage.hide();
         })
     }
     duckDive();
@@ -401,6 +504,13 @@ $(document).ready(function () {
             trainSide.hide();
             gullsSide.hide();
             brewPage.hide();
+            alightPage.hide();
+            triviaPage.hide();
+            duckPage.hide();
+            xyPage.show();
+            comedyPage.hide();
+            trainPage.hide();
+            gullsPage.hide();
         })
     }
     xy();
@@ -422,6 +532,13 @@ $(document).ready(function () {
             trainSide.hide();
             gullsSide.hide();
             brewPage.hide();
+            alightPage.hide();
+            triviaPage.hide();
+            duckPage.hide();
+            xyPage.hide();
+            comedyPage.show();
+            trainPage.hide();
+            gullsPage.hide();
         })
     }
     comedy();
@@ -443,6 +560,13 @@ $(document).ready(function () {
             trainSide.show();
             gullsSide.hide();
             brewPage.hide();
+            alightPage.hide();
+            triviaPage.hide();
+            duckPage.hide();
+            xyPage.hide();
+            comedyPage.hide();
+            trainPage.show();
+            gullsPage.hide();
         })
     }
     train();
@@ -464,27 +588,39 @@ $(document).ready(function () {
             trainSide.hide();
             gullsSide.show();
             brewPage.hide();
+            alightPage.hide();
+            triviaPage.hide();
+            duckPage.hide();
+            xyPage.hide();
+            comedyPage.hide();
+            trainPage.hide();
+            gullsPage.show();
         })
     }
     gulls();
 
-
-    // Modal Images for Portfolio Page //
+   
+     // Modal Images for Portfolio Page //
 
     var modal = document.getElementById('myModalImg');
 
     var img01 = document.getElementById('logic-01');
     var img02 = document.getElementById('logic-02');
     var img03 = document.getElementById('brew-01');
-    // var img04 = document.getElementById('view-01');
-    // var img05 = document.getElementById('view-02');
-    // var img06 = document.getElementById('gulls-01');
-    // var img07 = document.getElementById('xy-01');
-    // var img08 = document.getElementById('sdba-01');
-    // var img09 = document.getElementById('brew');
-    // var img10 = document.getElementById('zaldana');
-    // var img11 = document.getElementById('alight-01');
-    // var img12 = document.getElementById('alight-02');
+    var img04 = document.getElementById('view-01');
+    var img05 = document.getElementById('view-02');
+    var img06 = document.getElementById('alight-01');
+    var img07 = document.getElementById('alight-02');
+    var img08 = document.getElementById('trivia-01');
+    var img09 = document.getElementById('dive-01');
+    var img10 = document.getElementById('dive-02');
+    var img11 = document.getElementById('dive-03');
+    var img12 = document.getElementById('xy-01');
+    var img13 = document.getElementById('xy-02');
+    var img14 = document.getElementById('comedy-01');
+    var img15 = document.getElementById('train-01');
+    var img16 = document.getElementById('gulls-01');
+    var img17 = document.getElementById('gulls-02');
 
 
     var modalImg = document.getElementById("img01");
@@ -508,59 +644,89 @@ $(document).ready(function () {
         captionText.innerHTML = this.alt;
     }
 
-    //   img04.onclick = function(){
-    //     modal.style.display = "block";
-    //     modalImg.src = this.src;
-    //     captionText.innerHTML = this.alt;
-    //   }
+      img04.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
 
-    //   img05.onclick = function(){
-    //     modal.style.display = "block";
-    //     modalImg.src = this.src;
-    //     captionText.innerHTML = this.alt;
-    //   }
+      img05.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
 
-    //   img06.onclick = function(){
-    //     modal.style.display = "block";
-    //     modalImg.src = this.src;
-    //     captionText.innerHTML = this.alt;
-    //   }
+      img06.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
 
-    //   img07.onclick = function(){
-    //     modal.style.display = "block";
-    //     modalImg.src = this.src;
-    //     captionText.innerHTML = this.alt;
-    //   }
+      img07.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
 
-    //   img08.onclick = function(){
-    //     modal.style.display = "block";
-    //     modalImg.src = this.src;
-    //     captionText.innerHTML = this.alt;
-    //   }
+      img08.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
 
-    //   img09.onclick = function(){
-    //     modal.style.display = "block";
-    //     modalImg.src = this.src;
-    //     captionText.innerHTML = this.alt;
-    //   }
+      img09.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
 
-    //   img10.onclick = function(){
-    //     modal.style.display = "block";
-    //     modalImg.src = this.src;
-    //     captionText.innerHTML = this.alt;
-    //   }
+      img10.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
 
-    //   img11.onclick = function(){
-    //     modal.style.display = "block";
-    //     modalImg.src = this.src;
-    //     captionText.innerHTML = this.alt;
-    //   }
+      img11.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
 
-    //   img12.onclick = function(){
-    //     modal.style.display = "block";
-    //     modalImg.src = this.src;
-    //     captionText.innerHTML = this.alt;
-    //   }
+      img12.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+
+      img13.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+
+      img14.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+
+      img15.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+
+      img16.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+
+      img17.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
