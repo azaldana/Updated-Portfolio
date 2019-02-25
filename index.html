@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="sticky-footer.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Alexandra Zaldana | Home</title>
 </head>
@@ -46,13 +46,15 @@
         <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
             <div class="d-flex flex-grow-1">
                 <span class="w-100 d-lg-none d-block">
-                    <!-- hidden spacer to center brand on mobile --></span>
-                <a class="navbar-brand d-none d-lg-inline-block ml-5" href="#"><img
-                        src="assets/images/personal_logo_new.png" width="80" alt="Logo" id="logo">
+                    <!-- hidden spacer to center brand on mobile -->
+                </span>
+                <a class="navbar-brand d-none d-lg-inline-block ml-5" href="#">
+                    <img src="assets/images/personal_logo_new.png" width="80" alt="Logo" id="top-logo">
                 </a>
 
                 <div class="w-100 text-right">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
@@ -89,7 +91,7 @@
 
         <div id="main-text">
             <div class="row">
-                <div class="col-3">
+                <div class="col-lg-3 col-sm-12">
                     <section id="block-text">
 
                         <p id="description-pl">CLIENT <br>
@@ -246,7 +248,7 @@
 
                 <!-- // About Me Section // -->
 
-                <div class="col-6 about-me">
+                <div class="col-lg-6 col-sm-12 about-me">
                     <p id="about"><strong>About</strong></p>
 
                     <p id="text">
@@ -267,10 +269,9 @@
 
                 <!-- // About Me Profile Image // -->
 
-                <div class="col-3 about-me">
+                <div class="col-lg-3 col-sm-12 about-me">
                     <p></p>
-                    <img src="assets/images/image_01.jpg" class="rounded-circle" alt="Profile Photo" width="200"
-                        height="200">
+                    <img src="assets/images/profile.jpg" class="rounded-circle" alt="Profile Photo" width="200" height="200">
                 </div>
 
                 <!-- // Modal to showcase portfolio images // -->
@@ -323,26 +324,28 @@
 
                     <a class="btn btn-primary btn-lg" id="emailButton-01" href="#" role="button">Send me an email</a>
 
-                    <a class="btn btn-primary btn-lg" id="emailButton-02" href="../Updated-Portfolio/assets/images/resume_zaldana.pdf" target="_blank" role="button">View Resume</a>
+                    <a class="btn btn-primary btn-lg" id="emailButton-02"
+                        href="../Updated-Portfolio/assets/images/resume_zaldana.pdf" target="_blank" role="button">View
+                        Resume</a>
 
                 </div>
 
                 <!-- // Pretzel Logic Row // -->
 
-                <div class="col-3 pretzel">
+                <div class="col-lg-3 col-sm-12 pretzel">
                     <p id="header"><strong>Pretzel Logic Productions</strong></p>
 
                     <img id="logic-01" src="assets/images/PL-01.jpg" alt="Business E-blast Design" width="300">
 
                 </div>
 
-                <div class="col-6 pretzel">
+                <div class="col-lg-6 col-sm-12 pretzel">
                     <img id="logic-02" src="assets/images/PL-02.jpg" alt="Business Deck" width="600">
                 </div>
 
                 <!-- // Brew array Row // -->
 
-                <div class="col-9 brew">
+                <div class="col-lg-9 col-sm-12 brew">
                     <p id="header"><strong>Brew[array]</strong></p>
 
                     <img id="brew-01" src="assets/images/brew-array.jpg" alt="Website Design" width="900">
@@ -351,7 +354,7 @@
 
                 <!-- // Valley View Row // -->
 
-                <div class="col-8 valley">
+                <div class="col-lg-8 col-sm-12 valley">
                     <p id="header"><strong>Valley View Casino & Hotel</strong></p>
 
                     <img id="view-01" src="assets/images/VVCH-01.jpg" alt="San Diego Magazine Full-Page Ad" width="700">
@@ -362,7 +365,7 @@
 
                 <!-- // alight Lighting Row // -->
 
-                <div class="col-9 alight">
+                <div class="col-lg-9 col-sm-12 alight">
                     <p id="header"><strong>a•light Architectural Lighting</strong></p>
 
                     <img id="alight-01" src="assets/images/alight-01.jpg" alt="Atlas Sample Bag Design" width="900">
@@ -373,7 +376,7 @@
 
                 <!-- // Trivia Game Row // -->
 
-                <div class="col-9 trivia">
+                <div class="col-lg-9 col-sm-12 trivia">
                     <p id="header"><strong>90's Cartoon Trivia Game</strong></p>
 
                     <img id="trivia-01" src="assets/images/trivia.jpg" alt="90's Cartoon Trivia" width="900">
@@ -382,14 +385,14 @@
 
                 <!-- // Duck Dive Row // -->
 
-                <div class="col-4 duck">
+                <div class="col-lg-4 col-sm-12 duck">
                     <p id="header"><strong>Duck Dive</strong></p>
 
                     <img id="dive-01" src="assets/images/DD-01.jpg" alt="Industry Night Poster" width="405">
 
                 </div>
 
-                <div class="col-5 duck">
+                <div class="col-lg-5 col-sm-12 duck">
                     <img id="dive-02" src="assets/images/duckdive-nye.jpg" alt="NYE Social Media Post" width="300">
 
                     <img id="dive-03" src="assets/images/duckdive-egg.jpg" alt="National Eggnog Month" width="300">
@@ -397,20 +400,20 @@
 
                 <!-- // XY Find It Row // -->
 
-                <div class="col-4 xy">
+                <div class="col-lg-4 col-sm-12 xy">
                     <p id="header"><strong>XY Find It</strong></p>
 
                     <img id="xy-01" src="assets/images/XY-01.jpg" alt="XY E-blast Design" width="400">
 
                 </div>
 
-                <div class="col-4 xy">
+                <div class="col-lg-4 col-sm-12 xy">
                     <img id="xy-02" src="assets/images/XY-02.jpg" alt="XY Information Sheet" width="412">
                 </div>
 
                 <!-- // Comedy Gif Game Row // -->
 
-                <div class="col-9 comedy">
+                <div class="col-lg-9 col-sm-12 comedy">
                     <p id="header"><strong>Comedy Gifs</strong></p>
 
                     <img id="comedy-01" src="assets/images/gif-page.jpg" alt="Website Design" width="900">
@@ -419,29 +422,29 @@
 
                 <!-- // Train Schedule Row // -->
 
-                <div class="col-9 train">
-                    <p id="header"><strong>Comedy Gifs</strong></p>
+                <div class="col-lg-9 col-sm-12 train">
+                    <p id="header"><strong>Train Schedule</strong></p>
 
                     <img id="train-01" src="assets/images/train-web.jpg" alt="Website Design" width="900">
 
                 </div>
 
-                 <!-- // San Diego Gulls Row // -->
+                <!-- // San Diego Gulls Row // -->
 
-                 <div class="col-4 gulls">
-                        <p id="header"><strong>San Diego Gulls</strong></p>
-    
-                        <img id="gulls-01" src="assets/images/SDG-01.jpg" alt="Tailgate Poster Design" width="400">
-    
-                    </div>
-    
-                    <div class="col-4 gulls">
-                        <img id="gulls-02" src="assets/images/SDG-03.jpg" alt="Military Salute Poster Design" width="400">
-                    </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 gulls">
+                    <p id="header"><strong>San Diego Gulls</strong></p>
+
+                    <img id="gulls-01" src="assets/images/SDG-01.jpg" alt="Tailgate Poster Design" width="400">
+
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 gulls">
+                    <img id="gulls-02" src="assets/images/SDG-03.jpg" alt="Military Salute Poster Design" width="400">
+                </div>
 
                 <!-- // Web Design First Row // -->
 
-                <div class="col-6 portfolio">
+                <div class="col-lg-6 col-sm-12 portfolio">
                     <p id="header"><strong>Portfolio</strong></p>
                 </div>
             </div>
@@ -451,9 +454,9 @@
             <!-- // Web Design Second Row // -->
 
             <div class="row">
-                <div class="col-3 portfolio gdesign"></div>
+                <div class="col-lg-3 col-md-3 col-sm-1 portfolio gdesign"></div>
 
-                <div class="col-4 portfolio gdesign text-center">
+                <div class="col-lg-4 col-md-4 col-sm-6 portfolio gdesign text-center">
                     <div class="image">
                         <img src="assets/images/camera-01.jpg" width="400" id="funky">
                         <div class="middle">
@@ -469,7 +472,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 portfolio gdesign text-center">
+                <div class="col-lg-4 col-md-4 col-sm-6 portfolio gdesign text-center">
                     <div class="image">
                         <img src="assets/images/beer-01.jpg" width="400" id="funky">
                         <div class="middle">
@@ -491,9 +494,9 @@
             <!-- // Web Design Third Row // -->
 
             <div class="row">
-                <div class="col-3 portfolio gdesign"></div>
+                <div class="col-lg-3 col-md-3 col-sm-1 portfolio gdesign"></div>
 
-                <div class="col-4 portfolio gdesign text-center">
+                <div class="col-lg-4 col-md-4 col-sm-6 portfolio gdesign text-center">
                     <div class="image">
                         <img src="assets/images/valley-view-01.jpg" width="400" id="funky">
                         <div class="middle">
@@ -509,7 +512,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 portfolio gdesign text-center">
+                <div class="col-lg-4 col-md-4 col-sm-6 portfolio gdesign text-center">
                     <div class="image">
                         <img src="assets/images/lighting.jpg" width="400" id="funky">
                         <div class="middle">
@@ -530,9 +533,9 @@
             <!-- // Web Design Fourth Row // -->
 
             <div class="row">
-                <div class="col-3 portfolio gdesign"></div>
+                <div class="col-lg-3 col-md-3 col-sm-1 portfolio gdesign"></div>
 
-                <div class="col-4 portfolio gdesign text-center">
+                <div class="col-lg-4 col-md-4 col-sm-6 portfolio gdesign text-center">
                     <div class="image">
                         <img src="assets/images/comics.jpg" width="400" id="funky">
                         <div class="middle">
@@ -547,7 +550,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 portfolio gdesign text-center">
+                <div class="col-lg-4 col-md-4 col-sm-6 portfolio gdesign text-center">
                     <div class="image">
                         <img src="assets/images/bar.jpg" width="400" id="funky">
                         <div class="middle">
@@ -568,9 +571,9 @@
             <!-- // Web Design Fifth Row // -->
 
             <div class="row">
-                <div class="col-3 portfolio gdesign"></div>
+                <div class="col-lg-3 col-md-3 col-sm-1 portfolio gdesign"></div>
 
-                <div class="col-4 portfolio gdesign text-center">
+                <div class="col-lg-4 col-md-4 col-sm-6 portfolio gdesign text-center">
                     <div class="image">
                         <img src="assets/images/technology.jpg" width="400" id="funky">
                         <div class="middle">
@@ -585,7 +588,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 portfolio gdesign text-center">
+                <div class="col-lg-4 col-md-4 col-sm-6 portfolio gdesign text-center">
                     <div class="image">
                         <img src="assets/images/television.jpg" width="400" id="funky">
                         <div class="middle">
@@ -606,9 +609,9 @@
             <!-- // Web Design Sixth Row // -->
 
             <div class="row break">
-                <div class="col-3 portfolio gdesign"></div>
+                <div class="col-lg-3 col-md-3 col-sm-1 portfolio gdesign"></div>
 
-                <div class="col-4 portfolio gdesign text-center">
+                <div class="col-lg-4 col-md-4 col-sm-6 portfolio gdesign text-center">
                     <div class="image">
                         <img src="assets/images/train-01.jpg" width="400" id="funky">
                         <div class="middle">
@@ -623,7 +626,7 @@
                     </div>
                 </div>
 
-                <div class="col-4 portfolio gdesign text-center">
+                <div class="col-lg-4 col-md-4 col-sm-6 portfolio gdesign text-center">
                     <div class="image">
                         <img src="assets/images/hockey.jpg" width="400" id="funky">
                         <div class="middle">
@@ -644,21 +647,21 @@
 
         <footer class="footer">
             <div class="row">
-                <div class="col-sm-2">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                     <img src="assets/images/personal_logo_grey.png" width="80" alt="Logo" id="logo">
-
-
                 </div>
-                <div class="col-sm-8">
+
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
                     <div class="container">© 2019 Copyright</div>
-
                 </div>
 
-                <div class="col-sm-2">
-                    <a href="https://www.linkedin.com/in/alexandrazaldana03/" class="fa fa-linkedin"></a>
-                    <a href="https://github.com/azaldana" class="fa fa-github"></a>
-                    <a href="#" class="fa fa-envelope"></a>
-                    <a href="#" class="fa fa-phone"></a>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <section id="social">
+                        <a href="https://www.linkedin.com/in/alexandrazaldana03/" class="fa fa-linkedin"></a>
+                        <a href="https://github.com/azaldana" class="fa fa-github"></a>
+                        <a href="#" class="fa fa-envelope"></a>
+                        <a href="#" class="fa fa-phone"></a>
+                    </section>
                 </div>
             </div>
 
@@ -669,6 +672,19 @@
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+
+
 
         <script src="assets/javascript/app.js"></script>
 

@@ -4,6 +4,8 @@ Web Application that allows users to view my personal portfolio as well as conta
 
 
 ## Description
+
+This personal portfolio allows the viewer to see many different projects, view each project separately, and contact the designer through email. The designers resume can also be viewed through the contact page. 
  
 
 ## Sample View
