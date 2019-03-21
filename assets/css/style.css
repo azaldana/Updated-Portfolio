@@ -192,7 +192,7 @@ p {
     margin-bottom: 150px;
 }
 
-#description-pl, #description-brew, #description-valley, #description-alight, #description-trivia, #description-duck, #description-xy, #description-comedy, #description-train, #description-gulls, #description-liri {
+#description-pl, #description-brew, #description-valley, #description-alight, #description-trivia, #description-duck, #description-xy, #description-comedy, #description-train, #description-gulls, #description-liri, #description-amazon {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
     margin-bottom: 15px;
@@ -207,7 +207,7 @@ p {
     color: black;
 }
 
-#block-text, #block-text-01, #block-text-02, #block-text-03, #block-text-04, #block-text-05, #block-text-06, #block-text-07, #block-text-08, #block-text-09, #block-text-10 {
+#block-text, #block-text-01, #block-text-02, #block-text-03, #block-text-04, #block-text-05, #block-text-06, #block-text-07, #block-text-08, #block-text-09, #block-text-10, #block-text-11 {
     margin-top: 50px;
 }
 
