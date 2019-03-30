@@ -30,6 +30,7 @@ $(document).ready(function () {
     var gullsSide = $("#block-text-09");
     var liriSide = $("#block-text-10");
     var amazonSide = $("#block-text-11");
+    var friendSide = $("#block-text-12");
     var form = $('form');
     var logo = $("#logo");
     var pretzelPage = $(".pretzel");
@@ -45,6 +46,7 @@ $(document).ready(function () {
     var emailLine = $("#emailLine");
     var liriPage = $(".liri");
     var amazonPage = $(".amazon");
+    var friendPage = $(".friend");
 
 
     $("#submit").on('click', function (event) {
@@ -108,6 +110,7 @@ $(document).ready(function () {
         gullsSide.hide();
         liriSide.hide();
         amazonSide.hide();
+        friendSide.hide();
         form.hide();
         pretzelPage.hide();
         brewPage.hide();
@@ -121,6 +124,7 @@ $(document).ready(function () {
         gullsPage.hide();
         liriPage.hide();
         amazonPage.hide();
+        friendPage.hide();
         homePageButton.on('click', function () {
             homePage.empty();
             mainPage.show();
@@ -148,6 +152,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.hide();
             amazonSide.hide();
+            friendSide.hide();
             form.hide();
             pretzelPage.hide();
             brewPage.hide();
@@ -161,6 +166,7 @@ $(document).ready(function () {
             gullsPage.hide();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
             $("#home").css('font-weight', 'bold');
             $("#portfolio").css('font-weight', 'normal');
             $("#contact").css('font-weight', 'normal');
@@ -191,6 +197,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.hide();
             amazonSide.hide();
+            friendSide.hide();
             form.hide();
             pretzelPage.hide();
             brewPage.hide();
@@ -204,6 +211,7 @@ $(document).ready(function () {
             gullsPage.hide();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
             $(".graphic").css('font-weight', 'normal');
             $("#home").css('font-weight', 'bold');
             $("#portfolio").css('font-weight', 'normal');
@@ -233,6 +241,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.hide();
             amazonSide.hide();
+            friendSide.hide();
             form.hide();
             pretzelPage.hide();
             brewPage.hide();
@@ -246,6 +255,7 @@ $(document).ready(function () {
             gullsPage.hide();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
             $(".graphic").css('font-weight', 'normal');
             $("#home").css('font-weight', 'normal');
             $("#portfolio").css('font-weight', 'bold');
@@ -279,6 +289,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.hide();
             amazonSide.hide();
+            friendSide.hide();
             form.hide();
             pretzelPage.hide();
             brewPage.hide();
@@ -293,6 +304,7 @@ $(document).ready(function () {
             emailLine.show();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
             $(".graphic").css('font-weight', 'normal');
             $("#home").css('font-weight', 'normal');
             $("#contact").css('font-weight', 'bold');
@@ -323,6 +335,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.hide();
             amazonSide.hide();
+            friendSide.hide();
             brewPage.hide();
             valleyPage.hide();
             alightPage.hide();
@@ -335,6 +348,7 @@ $(document).ready(function () {
             emailLine.hide();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
             $("#home").css('font-weight', 'normal');
         });
     }
@@ -363,6 +377,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.hide();
             amazonSide.hide();
+            friendSide.hide();
             brewPage.hide();
             valleyPage.hide();
             alightPage.hide();
@@ -374,6 +389,7 @@ $(document).ready(function () {
             gullsPage.hide();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
         })
     }
     pretzel();
@@ -396,6 +412,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.hide();
             amazonSide.hide();
+            friendSide.hide();
             brewPage.show();
             valleyPage.hide();
             alightPage.hide();
@@ -407,6 +424,7 @@ $(document).ready(function () {
             gullsPage.hide();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
         })
     }
     brew();
@@ -429,6 +447,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.hide();
             amazonSide.hide();
+            friendSide.hide();
             brewPage.hide();
             valleyPage.show();
             alightPage.hide();
@@ -440,6 +459,7 @@ $(document).ready(function () {
             gullsPage.hide();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
         })
     }
     valleyView();
@@ -462,6 +482,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.hide();
             amazonSide.hide();
+            friendSide.hide();
             brewPage.hide();
             valleyPage.hide();
             alightPage.show();
@@ -473,6 +494,7 @@ $(document).ready(function () {
             gullsPage.hide();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
         })
     }
     alight();
@@ -495,6 +517,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.hide();
             amazonSide.hide();
+            friendSide.hide();
             brewPage.hide();
             alightPage.hide();
             triviaPage.show();
@@ -505,6 +528,7 @@ $(document).ready(function () {
             gullsPage.hide();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
         })
     }
     trivia();
@@ -527,6 +551,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.hide();
             amazonSide.hide();
+            friendSide.hide();
             brewPage.hide();
             alightPage.hide();
             triviaPage.hide();
@@ -537,6 +562,7 @@ $(document).ready(function () {
             gullsPage.hide();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
         })
     }
     duckDive();
@@ -559,6 +585,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.hide();
             amazonSide.hide();
+            friendSide.hide();
             brewPage.hide();
             alightPage.hide();
             triviaPage.hide();
@@ -569,6 +596,7 @@ $(document).ready(function () {
             gullsPage.hide();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
         })
     }
     xy();
@@ -591,6 +619,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.hide();
             amazonSide.hide();
+            friendSide.hide();
             brewPage.hide();
             alightPage.hide();
             triviaPage.hide();
@@ -601,6 +630,7 @@ $(document).ready(function () {
             gullsPage.hide();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
         })
     }
     comedy();
@@ -623,6 +653,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.hide();
             amazonSide.hide();
+            friendSide.hide();
             brewPage.hide();
             alightPage.hide();
             triviaPage.hide();
@@ -633,6 +664,7 @@ $(document).ready(function () {
             gullsPage.hide();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
         })
     }
     train();
@@ -665,6 +697,7 @@ $(document).ready(function () {
             gullsPage.show();
             liriPage.hide();
             amazonPage.hide();
+            friendPage.hide();
         })
     }
     gulls();
@@ -687,6 +720,7 @@ $(document).ready(function () {
             gullsSide.hide();
             liriSide.show();
             amazonSide.hide();
+            friendSide.hide();
             brewPage.hide();
             alightPage.hide();
             triviaPage.hide();
@@ -697,6 +731,7 @@ $(document).ready(function () {
             gullsPage.hide();
             liriPage.show();
             amazonPage.hide();
+            friendPage.hide();
         })
     }
    liri();
@@ -719,6 +754,7 @@ $(document).ready(function () {
         gullsSide.hide();
         liriSide.hide();
         amazonSide.show();
+        friendSide.hide();
         brewPage.hide();
         alightPage.hide();
         triviaPage.hide();
@@ -729,11 +765,48 @@ $(document).ready(function () {
         gullsPage.hide();
         liriPage.hide();
         amazonPage.show();
+        friendPage.hide();
     })
 
    }
 
    amazon();
+
+   function friend(){
+    var friendClicked = $(".project13");
+
+    friendClicked.on('click', function () {
+        portfolio.hide();
+        pretzelPage.hide();
+        pretzelSide.hide();
+        brewSide.hide();
+        valleySide.hide();
+        alightSide.hide();
+        triviaSide.hide();
+        duckSide.hide();
+        xySide.hide();
+        comedySide.hide();
+        trainSide.hide();
+        gullsSide.hide();
+        liriSide.hide();
+        amazonSide.hide();
+        friendSide.show();
+        brewPage.hide();
+        alightPage.hide();
+        triviaPage.hide();
+        duckPage.hide();
+        xyPage.hide();
+        comedyPage.hide();
+        trainPage.hide();
+        gullsPage.hide();
+        liriPage.hide();
+        amazonPage.hide();
+        friendPage.show();
+    })
+
+   }
+
+   friend();
 
    
      // Modal Images for Portfolio Page //
@@ -759,6 +832,7 @@ $(document).ready(function () {
     var img17 = document.getElementById('gulls-02');
     var img18 = document.getElementById('liri-01');
     var img19 = document.getElementById('amazon-01');
+    var img20 = document.getElementById('friend-01');
 
 
     var modalImg = document.getElementById("img01");
@@ -873,6 +947,12 @@ $(document).ready(function () {
       }
 
       img19.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+
+      img20.onclick = function(){
         modal.style.display = "block";
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
